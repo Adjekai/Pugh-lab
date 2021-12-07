@@ -1,0 +1,4 @@
+Manifest-Version: 1.0 
+Created-By: Ali Nematbakhsh
+Class-Path: commons-cli-1.4.jar
+Main-Class: Main
