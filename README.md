@@ -35,3 +35,7 @@ Non-scriptmanager tools :
 
 2. Sumterms, tool coded in python.
 - This tool sums the two colums of a txt file, creates a third column and places the sum there
+
+
+3. ReadmeandWriteme, tool coded in java
+- This tool reads the data from one file and writes it to another
