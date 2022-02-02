@@ -1,0 +1,33 @@
+tool id="Readme-Writeme" name="Readme" version="1.0.0">
+<description>Reads a file</description>
+<command>
+javac '$__tool_directory__/readme.java' --input '${i}' --output '${o}}'
+</command>
+<inputs>
+     <param name="i" type="data" format="txt" label="Reads data from"/>
+</inputs>
+<outputs>
+    <data name="o" format="txt" metadata_source="Readme/writeme"/>
+</outputs>
+<help>
+**What it does**
+
+This tool reads data from a text file and write it to another file.
+-----
+**Example**
+
+Input File::
+    28  18
+    18  16
+    20  13
+    24  12
+    19  15
+
+Writing to a new file returns this::
+    28  18  
+    18  16  
+    20  13  
+    24  12  
+    19  15  
+    </help>
+</tool>
